@@ -1,19 +1,28 @@
-#container {
-  width: 1517px;
-  margin-left: 10px;
-  background-color: lightgray;
-  border: solid 1px grey;
+/* GLOBAL */
+li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  /* background-color: #f3f5f5; */
 }
 
 .logo {
-  margin-left: 170px;
   width: 200px;
 }
 
 .first-restaurant {
-  margin-left: 170px;
-  margin-right: 170px;
+  margin-top: 30px;
   display: flex;
+  background-color: white;
 }
 .cover-style {
   margin-left: 20px;
@@ -21,4 +30,32 @@
   height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  background-color: green;
+  column-count: 2;
+}
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cart-model {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.cart-model > a > button {
+  height: 40px;
+  margin: 5px;
+  width: 340px;
+  border-radius: 3px;
+  background-color: lightseagreen;
+}
+.checkout-model {
+  display: flex;
+  flex-direction: row;
 }
